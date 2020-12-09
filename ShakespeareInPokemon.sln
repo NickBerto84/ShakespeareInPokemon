@@ -1,0 +1,101 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShakespeareInPokemon.API", "ShakespeareInPokemon.API\ShakespeareInPokemon.API.csproj", "{7B82E01A-5133-4D55-841C-423767756331}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShakespeareInPokemon.Domain", "ShakespeareInPokemon.Domain\ShakespeareInPokemon.Domain.csproj", "{6F98486A-290E-464A-93B1-4CDB08578B99}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShakespeareInPokemon.Data", "ShakespeareInPokemon.Data\ShakespeareInPokemon.Data.csproj", "{3AEE3E91-8A96-43A4-A283-64A07F85C22D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShakespeareInPokemon.Data.Interfaces", "ShakespeareInPokemon.Data.Interfaces\ShakespeareInPokemon.Data.Interfaces.csproj", "{92B29FE3-CCEB-4422-82A2-CDDA417B67DC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShakespeareInPokemon.Crosscutting", "ShakespeareInPokemon.Crosscutting\ShakespeareInPokemon.Crosscutting.csproj", "{8E282609-82A2-4AB8-9A96-EC8C353BAC25}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{DC6677AC-D240-40F7-8ED6-76AD75E8D4B9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShakespeareInPokemon.Data.Tests", "ShakespeareInPokemon.Data.Tests\ShakespeareInPokemon.Data.Tests.csproj", "{E0AE619E-0715-435B-AE1E-EB407FBB3625}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShakespeareInPokemon.Data.IntegrationTests", "ShakespeareInPokemon.Data.IntegrationTests\ShakespeareInPokemon.Data.IntegrationTests.csproj", "{C4AF9588-DD2D-47E1-BD27-BA4222AB95BC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShakespeareInPokemon.Domain.Tests", "ShakespeareInPokemon.Domain.Tests\ShakespeareInPokemon.Domain.Tests.csproj", "{2C695064-BF3B-495E-9A29-2A77E99EBFB9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShakespeareInPokemon.Tests.Common", "ShakespeareInPokemon.Tests.Common\ShakespeareInPokemon.Tests.Common.csproj", "{E0F58D9C-6123-47AC-B8EE-3D4843F80208}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShakespeareInPokemon.Domain.Interfaces", "ShakespeareInPokemon.Domain.Interfaces\ShakespeareInPokemon.Domain.Interfaces.csproj", "{DA707411-AC22-41FD-9C73-22DA364A5510}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShakespeareInPokemon.API.Tests", "ShakespeareInPokemon.API.Tests\ShakespeareInPokemon.API.Tests.csproj", "{BFE6AA21-DD68-486A-8570-581F72079EA1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShakespeareInPokemon.API.AcceptanceTests", "ShakespeareInPokemon.API.AcceptanceTests\ShakespeareInPokemon.API.AcceptanceTests.csproj", "{8A94CD3E-5B1E-48AD-86AA-0A4DF1D94C82}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7B82E01A-5133-4D55-841C-423767756331}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B82E01A-5133-4D55-841C-423767756331}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B82E01A-5133-4D55-841C-423767756331}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B82E01A-5133-4D55-841C-423767756331}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F98486A-290E-464A-93B1-4CDB08578B99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F98486A-290E-464A-93B1-4CDB08578B99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F98486A-290E-464A-93B1-4CDB08578B99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F98486A-290E-464A-93B1-4CDB08578B99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AEE3E91-8A96-43A4-A283-64A07F85C22D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AEE3E91-8A96-43A4-A283-64A07F85C22D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AEE3E91-8A96-43A4-A283-64A07F85C22D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AEE3E91-8A96-43A4-A283-64A07F85C22D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92B29FE3-CCEB-4422-82A2-CDDA417B67DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92B29FE3-CCEB-4422-82A2-CDDA417B67DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92B29FE3-CCEB-4422-82A2-CDDA417B67DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92B29FE3-CCEB-4422-82A2-CDDA417B67DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E282609-82A2-4AB8-9A96-EC8C353BAC25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E282609-82A2-4AB8-9A96-EC8C353BAC25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E282609-82A2-4AB8-9A96-EC8C353BAC25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E282609-82A2-4AB8-9A96-EC8C353BAC25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0AE619E-0715-435B-AE1E-EB407FBB3625}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0AE619E-0715-435B-AE1E-EB407FBB3625}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0AE619E-0715-435B-AE1E-EB407FBB3625}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0AE619E-0715-435B-AE1E-EB407FBB3625}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4AF9588-DD2D-47E1-BD27-BA4222AB95BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4AF9588-DD2D-47E1-BD27-BA4222AB95BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4AF9588-DD2D-47E1-BD27-BA4222AB95BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4AF9588-DD2D-47E1-BD27-BA4222AB95BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C695064-BF3B-495E-9A29-2A77E99EBFB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C695064-BF3B-495E-9A29-2A77E99EBFB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C695064-BF3B-495E-9A29-2A77E99EBFB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C695064-BF3B-495E-9A29-2A77E99EBFB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0F58D9C-6123-47AC-B8EE-3D4843F80208}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0F58D9C-6123-47AC-B8EE-3D4843F80208}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0F58D9C-6123-47AC-B8EE-3D4843F80208}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0F58D9C-6123-47AC-B8EE-3D4843F80208}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA707411-AC22-41FD-9C73-22DA364A5510}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA707411-AC22-41FD-9C73-22DA364A5510}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA707411-AC22-41FD-9C73-22DA364A5510}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA707411-AC22-41FD-9C73-22DA364A5510}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFE6AA21-DD68-486A-8570-581F72079EA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFE6AA21-DD68-486A-8570-581F72079EA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFE6AA21-DD68-486A-8570-581F72079EA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFE6AA21-DD68-486A-8570-581F72079EA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A94CD3E-5B1E-48AD-86AA-0A4DF1D94C82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A94CD3E-5B1E-48AD-86AA-0A4DF1D94C82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A94CD3E-5B1E-48AD-86AA-0A4DF1D94C82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A94CD3E-5B1E-48AD-86AA-0A4DF1D94C82}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E0AE619E-0715-435B-AE1E-EB407FBB3625} = {DC6677AC-D240-40F7-8ED6-76AD75E8D4B9}
+		{C4AF9588-DD2D-47E1-BD27-BA4222AB95BC} = {DC6677AC-D240-40F7-8ED6-76AD75E8D4B9}
+		{2C695064-BF3B-495E-9A29-2A77E99EBFB9} = {DC6677AC-D240-40F7-8ED6-76AD75E8D4B9}
+		{E0F58D9C-6123-47AC-B8EE-3D4843F80208} = {DC6677AC-D240-40F7-8ED6-76AD75E8D4B9}
+		{BFE6AA21-DD68-486A-8570-581F72079EA1} = {DC6677AC-D240-40F7-8ED6-76AD75E8D4B9}
+		{8A94CD3E-5B1E-48AD-86AA-0A4DF1D94C82} = {DC6677AC-D240-40F7-8ED6-76AD75E8D4B9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4F8095FD-EAA2-4155-B451-8577895A0971}
+	EndGlobalSection
+EndGlobal

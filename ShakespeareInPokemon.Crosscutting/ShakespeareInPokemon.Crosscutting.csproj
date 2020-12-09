@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ShakespeareInPokemon.Data\ShakespeareInPokemon.Data.csproj" />
+    <ProjectReference Include="..\ShakespeareInPokemon.Domain\ShakespeareInPokemon.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

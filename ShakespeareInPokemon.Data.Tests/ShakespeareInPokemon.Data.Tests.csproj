@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoFixture.Xunit2" Version="4.11.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.2.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="5.6.3" />
+    <PackageReference Include="xunit" Version="2.4.0" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.0" />
+    <PackageReference Include="coverlet.collector" Version="1.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ShakespeareInPokemon.Crosscutting\ShakespeareInPokemon.Crosscutting.csproj" />
+    <ProjectReference Include="..\ShakespeareInPokemon.Data.Interfaces\ShakespeareInPokemon.Data.Interfaces.csproj" />
+    <ProjectReference Include="..\ShakespeareInPokemon.Domain.Interfaces\ShakespeareInPokemon.Domain.Interfaces.csproj" />
+    <ProjectReference Include="..\ShakespeareInPokemon.Tests.Common\ShakespeareInPokemon.Tests.Common.csproj" />
+  </ItemGroup>
+
+</Project>
